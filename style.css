@@ -1,5 +1,5 @@
 html {
-    cursor: url(../images/cursor_purple.cur), default;
+    cursor: url(images/cursor_purple.cur), default;
 }
 
 body {
@@ -45,10 +45,10 @@ body {
 .input_text button{
     background-color: #36393f;
     border: none;
-    background-image: url('../images/search.svg');
+    background-image: url('images/search.svg');
     background-position: center center;
     background-repeat: no-repeat;
-    cursor: url(../images/cursor_grey.cur), default;
+    cursor: url(images/cursor_grey.cur), default;
 
     transition: 0.3s ease;
 }
