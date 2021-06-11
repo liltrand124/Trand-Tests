@@ -18,7 +18,7 @@ function insertAnswers() {
     var text_2 = document.getElementById("text_2");
     var text_3 = document.getElementById("text_3");
 
-    readTextFile("database/data.json", function(text){
+    readTextFile("../database/data.json", function(text){
         var data = JSON.parse(text);
 
         for (var i = 0; i < data.length; ++i){
