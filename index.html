@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+    <script src="../database/data.json"></script>
+    <script src="/scripts.js"></script>
+    <title>Trand Tests</title>
+</head>
+<body onload="innerElements();">
+    <div class="block">
+        <div class="input_text">
+            <input list="tests_list" type="text" id="test_text"  class="test_text" placeholder="Питання" autofocus/>
+            <datalist id="tests_list"></datalist>
+            <button type="button" id="button_search" class="button_search" onclick="insertAnswers();"></button>
+        </div>
+        <div class="output" id="output">
+            <p class="variant" id="text_1"></p>
+            <p class="variant" id="text_2"></p>
+            <p class="variant" id="text_3"></p>
+        </div>
+      </div>
+</body>
+</html>
